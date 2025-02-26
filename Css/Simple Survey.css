@@ -1,0 +1,46 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, #d79f2f, #1f021f);
+    background-repeat: no-repeat;
+    font-family: 'Arial';
+    font-size: 22px;
+}
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+}
+h1, h3 {
+    text-align: center;
+}
+.form {
+    padding: 15px;
+    background-color: rgba(14, 14, 219, 0.226);
+    border: 1px solid black;
+}
+.tickbox label, .radio label {
+    display: block;
+}
+input[type=text], input[type=number], button, select{
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type=radio], input[type=checkbox] {
+    height: 30px;
+    width: 20px;
+}
+.form select {
+    text-align: center;
+}
+button {
+    background-color: green;
+    border: none;
+    color: white;
+}
